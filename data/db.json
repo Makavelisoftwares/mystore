@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "image":"./phones/experia.jpg",
+        "name":"Sony Experia",
+        "price":23000,
+        "incart":0,
+        "tag":"sony",
+        "body":"><strong>Warranty</strong>: 12 months <br> ><strong>OS</strong>: Android OS <br> ><strong>Processor</strong>: Dual-core 2Hz <br> ><strong>Memory</strong>: 32GB, 2GB RAM <br> ><strong>Card slot</strong>: microSD upto 32GB support <br> ><strong>WLAN</strong>: Wi-Fi 802.11 b/g/n ,WiFi hotspot <br> ><strong>Bluetooth</strong>: Yes, v4.0 with A2DP <br> ><strong>Main Camera</strong>: 5MP ,2592 * 1944 pixels"
+    },
+    {
+        "id":2,
+        "image":"./phones/huawei2.png",
+        "name":"Huawei Y5",
+        "incart":0,
+        "tag":"huaweiY5",
+        "body":"><strong>Warranty</strong>: 12 months <br> ><strong>OS</strong>: Android OS <br> ><strong>Processor</strong>: Dual-core 2Hz <br> ><strong>Memory</strong>: 16GB, 2GB RAM <br> ><strong>Card slot</strong>: microSD upto 32GB support <br> ><strong>WLAN</strong>: Wi-Fi 802.11 b/g/n ,WiFi hotspot <br> ><strong>Bluetooth</strong>: Yes, v4.0 with A2DP <br> ><strong>Main Camera</strong>: 5MP ,2592 * 1944 pixels",
+        "price":8000
+    },
+    {
+        "id":3,
+        "image":"./phones/iphone.jpg",
+        "name":"Iphone 12",
+        "incart":0,
+        "tag":"iphone12",
+        "price":73000,
+        "body":"><strong>Warranty</strong>: 12 months <br> ><strong>OS</strong>: Mac OS <br> ><strong>Processor</strong>: Dual-core 2Hz <br> ><strong>Memory</strong>: 128GB, 8GB RAM <br> ><strong>Card slot</strong>: microSD upto 64GB support <br> ><strong>WLAN</strong>: Wi-Fi 802.11 b/g/n ,WiFi hotspot <br> ><strong>Bluetooth</strong>: Yes, v4.0 with A2DP <br> ><strong>Main Camera</strong>: 25MP ,2592 * 9944 pixels"
+    },
+    {
+        "id":4,
+        "image":"./phones/iphone-13.png",
+        "name":"Iphone 13",
+        "incart":0,
+        "tag":"iphone13",
+        "price":105000,
+        "body":"><strong>Warranty</strong>: 12 months <br> ><strong>OS</strong>: Mac OS <br> ><strong>Processor</strong>: Dual-core 2Hz <br> ><strong>Memory</strong>: 128GB, 8GB RAM <br> ><strong>Card slot</strong>: microSD upto 64GB support <br> ><strong>WLAN</strong>: Wi-Fi 802.11 b/g/n ,WiFi hotspot <br> ><strong>Bluetooth</strong>: Yes, v4.0 with A2DP <br> ><strong>Main Camera</strong>: 25MP ,2592 * 9944 pixels"
+    },
+        {
+        "id":5,
+        "image":"./phones/oppo.png",
+        "name":"Oppo",
+        "incart":0,
+        "tag":"oppo",
+        "price":25000.00,
+        "body":"><strong>Warranty</strong>: 12 months <br> ><strong>OS</strong>: Android OS <br> ><strong>Processor</strong>: Dual-core 2Hz <br> ><strong>Memory</strong>: 16GB, 2GB RAM <br> ><strong>Card slot</strong>: microSD upto 32GB support <br> ><strong>WLAN</strong>: Wi-Fi 802.11 b/g/n ,WiFi hotspot <br> ><strong>Bluetooth</strong>: Yes, v4.0 with A2DP <br> ><strong>Main Camera</strong>: 5MP ,2592 * 1944 pixels"
+    },
+    {
+        "id":6,
+        "image":"./phones/samsung1.png",
+        "name":"Samsung",
+        "incart":0,
+        "tag":"samsung",
+        "price":65000.00,
+        "body":"><strong>Warranty</strong>: 12 months <br> ><strong>OS</strong>: Android OS <br> ><strong>Processor</strong>: Dual-core 2Hz <br> ><strong>Memory</strong>: 16GB, 2GB RAM <br> ><strong>Card slot</strong>: microSD upto 32GB support <br> ><strong>WLAN</strong>: Wi-Fi 802.11 b/g/n ,WiFi hotspot <br> ><strong>Bluetooth</strong>: Yes, v4.0 with A2DP <br> ><strong>Main Camera</strong>: 5MP ,2592 * 1944 pixels"
+    },
+    {
+        "id":7,
+        "image":"./phones/tecno-camon.jpg",
+        "name":"Tecno-Camon",
+        "price":20000.00,
+        "incart":0,
+        "tag":"tecnocamon",
+        "body":"><strong>Warranty</strong>: 12 months <br> ><strong>OS</strong>: Android OS <br> ><strong>Processor</strong>: Dual-core 2Hz <br> ><strong>Memory</strong>: 16GB, 2GB RAM <br> ><strong>Card slot</strong>: microSD upto 32GB support <br> ><strong>WLAN</strong>: Wi-Fi 802.11 b/g/n ,WiFi hotspot <br> ><strong>Bluetooth</strong>: Yes, v4.0 with A2DP <br> ><strong>Main Camera</strong>: 5MP ,2592 * 1944 pixels"
+    },
+    {
+        "id":8,
+        "image":"./phones/sony.png",
+        "name":"Sony Experia",
+        "price":54000.00,
+        "incart":0,
+        "tag":"sonyexperia",
+        "body":"><strong>Warranty</strong>: 12 months <br> ><strong>OS</strong>: Android OS <br> ><strong>Processor</strong>: Dual-core 2Hz <br> ><strong>Memory</strong>: 16GB, 2GB RAM <br> ><strong>Card slot</strong>: microSD upto 32GB support <br> ><strong>WLAN</strong>: Wi-Fi 802.11 b/g/n ,WiFi hotspot <br> ><strong>Bluetooth</strong>: Yes, v4.0 with A2DP <br> ><strong>Main Camera</strong>: 5MP ,2592 * 1944 pixels"
+    }
+]

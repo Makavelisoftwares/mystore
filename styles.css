@@ -1,0 +1,372 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body,
+html{
+    background: #eee;
+    overflow-x:hidden ;
+    scroll-behavior: scroll;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* #######################  header css ##################### */
+header{
+    height: 45vh;
+    background-color: rgb(155, 95, 0);
+    position: relative;
+    user-select: none;
+}
+header::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./phones/iPhone-13.png);
+    opacity: .4;
+    transform: rotate(-40deg);
+}
+
+#header{
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#logo{
+    flex: 8;
+}
+#logo h3{
+    font-size: 33px;
+    color: #eee;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 1px 5px #d0d0d0;
+}
+#links{
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#links ul li{
+    display: inline-block;
+    list-style: none;
+}
+#links li a{
+    color: #d0d0d0;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+#links li a:focus,
+#links li a:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+#info{
+    position: relative;
+    color: #eee;
+    padding: 10px;
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#info h2{
+    font-weight: 900;
+}
+#info p{
+    color: rgb(223, 223, 213);
+    line-height: 20px;
+}
+#info strong{
+    color: #fff;
+}
+
+#images{
+    position: relative;
+    max-width: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#img1 img{
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+    transform: rotate(-40deg);
+    filter: drop-shadow(1px 2px 2px #d0d0d0);
+}
+#img2 img{
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+    transform: rotate(40deg);
+}
+
+
+
+/* ####################################### main page css ###################### */
+main{
+    max-width: 950px;
+    margin: auto;
+    padding: 10px;
+    user-select: none;
+
+}
+#heading h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+#products{
+    flex-wrap: wrap;
+    padding: 20px 0;
+    display: inline-flex;
+    scroll-behavior: scroll;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+#card{
+    width: 170px;
+    user-select: none;
+    background-color: #fff;
+    box-shadow: 3px 4px 5px #d0d0d0;
+    border-radius: 6px;
+    margin: 5px;
+
+ 
+}
+#product-image img{
+    height: 25vh;
+    width: 170px;
+    object-fit: contain;
+}
+#names{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+#name1{
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    padding:0 10px;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#btn1 button{
+    border: none;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(255, 251, 1);
+    
+
+}
+
+#btn1 button:hover,
+#btn1 button:focus{
+    box-shadow: 3px 4px 5px #d0d0d0;
+    transform: scale(1.1);
+}
+#card i{
+    color: rgb(155, 95, 0);
+}
+
+
+
+
+
+/* ################### footer css ############ */
+footer{
+    background-color: #151515;
+    user-select: none;
+}
+footer p{
+    color: #eee;
+    font-weight: 800;
+    cursor: pointer;
+}
+footer small{
+    color: #d0d0d0;
+    font-weight: 100;
+}
+#footer1 h3{
+    margin-bottom: 20px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    padding:20px 10px;
+    text-align: center;
+
+}
+#copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #6d6d6d;
+}
+#copyright p{
+    font-size:13px ;
+    font-weight: 100;
+    color: #d0d0d0;    
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+
+
+
+/* ############### about page#################### */
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #fff;
+    margin: 10px 0;
+    box-shadow: 2px 4px 3px 4px #d0d0d0;
+    border-radius: 7px;
+}
+#div1{
+    width: 400px;
+    height: 50vh;
+    object-fit: contain;
+
+}
+
+#div1 img{
+    width: 400px;    
+    height: 50vh;
+    object-fit: contain;
+}
+#div2{
+    display: grid;
+    /* background-color: red; */
+    padding: 10px;
+}
+#div2 h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+#div2 p{
+    font-size: 20px;
+}
+#div2 i{
+    color: rgb(155, 95, 0);
+    padding-bottom: 10px;
+
+
+}
+#div2 button{
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    border: 5px solid rgb(155, 95, 0);
+    background-color: #fff;
+    border-radius: 7px;
+    color: rgb(155, 95, 0);
+    font-weight: 600;
+}
+#div2 button:focus,
+#div2 button:hover{
+   background-color:  rgb(155, 95, 0);
+   color: #fff;
+   
+
+}
+
+
+
+/* ############################## my cart css ################ */
+ 
+.product-container{
+    justify-content: space-around;
+    max-width: 650px;
+    margin:0 auto;
+    margin-top:50px ;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.product-header{
+    width: 100%;
+    max-width:650px ;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #5d5d5d;
+}
+.product-title{
+    width: 40%;
+}
+.price{
+    /* border-bottom: 1px solid #5d5d5d; */
+    width: 15%;
+    display: flex;
+    align-items: center;
+    
+}
+.quantity{
+    border-bottom: 1px solid #5d5d5d;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+.total{
+    border-bottom: 1px solid #5d5d5d;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    
+}
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #5d5d5d;
+
+
+}
